@@ -1,0 +1,20 @@
+<!--
+<div id="kankan" class="hidden">
+	<table>
+	<% for status in @sina_statuses %>
+  		<tr class="<%= cycle('list-line-odd','list-line-even')%>">
+    			<td><%=h SinaUser.find(status.usr).name%></td><tr />
+    			<td><%=h status.text %></td> <tr />  
+  		</tr>
+	<% end %>
+	</table>
+	<span onclick="getinfo()">收起</span>
+</div>
+-->
+<table>
+	<tr class="<%= cycle('list-line-odd','list-line-even')%>">
+		<td><%=h SinaUser.find(hotpart.usr).name%></td><tr />
+		<td><%=h hotpart.text %></td><tr />
+	</tr>
+</table>
+

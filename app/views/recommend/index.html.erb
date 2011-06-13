@@ -1,0 +1,81 @@
+<div id="user-list">
+	<%= image_tag "/images/rails.png"%>
+
+			
+
+	<h1>
+		<span onclick="changemark(0)">热点推荐</span>
+		<span onclick="changemark(1)">我的订阅</span>
+	</h1>
+					
+	<!-- 热点推荐 -->
+	<div id="mark0" class="show">
+		<h2><span onclick="getinfo(1)">新浪热点</span></h2>
+		<div id="sina" class="hidden">
+			<%= render :partial => "hotpart", :collection => @sina_statuses %>
+			<span onclick="getinfo(1)">收起</span>
+		</div>
+		<h2><span onclick="getinfo(2)">其他热点</span></h2>
+		<div id="other" class="hidden">
+			<%= render :partial => "hotpart", :collection => @other_statuses %>
+			<span onclick="getinfo(2)">收起</span>
+		</div>
+	</div>
+	<!-- 热点推荐：end -->
+					
+					
+	<!-- 我的订阅 -->
+	<div id="mark1" class="hidden">
+						
+
+
+	</div>
+	<!-- 我的订阅：end -->					
+
+
+<!-- 标签切换script -->					
+<script type="text/javascript">
+	function changemark(n)
+	{
+		if (n == 0) 
+		{
+			
+			$("mark0").className = "show";
+			$("mark1").className = "hidden";
+		}
+		else
+		{
+			
+			$("mark0").className = "hidden";
+			$("mark1").className = "show";
+		}
+	}
+
+	function getinfo(n)
+	{
+		if(n == 1)
+			if($("sina").className == "show")
+			{
+				$("sina").className = "hidden";
+			}
+			else
+			{
+				$("sina").className = "show";
+			}
+		else
+			if($("other").className == "show")
+			{
+				$("other").className = "hidden";
+			}
+			else
+			{
+				$("other").className = "show";
+			}
+	}
+</script>
+	
+
+
+</div>
+
+

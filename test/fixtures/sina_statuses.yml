@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  statusID: MyString
+  text: MyText
+  favorited: 1
+  reply_to_userID: MyString
+  retweeted: MyString
+  usr: MyString
+  date: 2011-06-12
+  time: 2011-06-12 20:20:22
+
+two:
+  statusID: MyString
+  text: MyText
+  favorited: 1
+  reply_to_userID: MyString
+  retweeted: MyString
+  usr: MyString
+  date: 2011-06-12
+  time: 2011-06-12 20:20:22

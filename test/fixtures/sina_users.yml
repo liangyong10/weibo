@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  userID: MyString
+  name: MyString
+  location: MyString
+  description: MyText
+  followers: 1
+  friends: 1
+  statuses: 1
+
+two:
+  userID: MyString
+  name: MyString
+  location: MyString
+  description: MyText
+  followers: 1
+  friends: 1
+  statuses: 1
