@@ -21273,3 +21273,1019 @@ Rendered recommend/_hotpart (2.9ms)
   [4;36;1mSinaUser Load (0.1ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '2084505595') [0m
 Rendered recommend/_hotpart (2.7ms)
 Completed in 74ms (View: 66, DB: 0) | 200 OK [http://localhost/recommend?x=98&y=34]
+
+
+Processing RecommendController#index (for 127.0.0.1 at 2011-06-13 20:44:39) [GET]
+  Parameters: {"x"=>"127", "y"=>"16"}
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSinaStatus Load (0.5ms)[0m   [0;1mSELECT * FROM `sina_statuses` LIMIT 0, 10[0m
+  [4;35;1mSinaUser Load (0.5ms)[0m   [0mSELECT * FROM `sina_users` [0m
+  [4;36;1mSinaStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `sina_statuses` LIMIT 5, 10[0m
+Rendering template within layouts/recommend
+Rendering recommend/index
+  [4;35;1mSinaStatus Columns (3.7ms)[0m   [0mSHOW FIELDS FROM `sina_statuses`[0m
+  [4;36;1mSinaUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `sina_users`[0m
+  [4;35;1mSinaUser Load (0.4ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mSinaUser Load (0.3ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mSinaUser Load (0.3ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+Rendered recommend/_hotpart (32.0ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+Rendered recommend/_hotpart (9.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+Rendered recommend/_hotpart (11.9ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+Rendered recommend/_hotpart (11.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+Rendered recommend/_hotpart (9.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+Rendered recommend/_hotpart (11.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+Rendered recommend/_hotpart (9.9ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+Rendered recommend/_hotpart (11.7ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+Rendered recommend/_hotpart (11.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+Rendered recommend/_hotpart (9.5ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+Rendered recommend/_hotpart (10.1ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+Rendered recommend/_hotpart (11.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+Rendered recommend/_hotpart (10.1ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+Rendered recommend/_hotpart (9.7ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+Rendered recommend/_hotpart (12.0ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mSinaUser Load (0.3ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1450425893') [0m
+Rendered recommend/_hotpart (9.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652128305') [0m
+Rendered recommend/_hotpart (9.8ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1843206103') [0m
+Rendered recommend/_hotpart (12.3ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mSinaUser Load (0.3ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1764192482') [0m
+Rendered recommend/_hotpart (9.9ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mSinaUser Load (0.3ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '2084505595') [0m
+Rendered recommend/_hotpart (11.1ms)
+Completed in 347ms (View: 299, DB: 3) | 200 OK [http://localhost/recommend?x=127&y=16]
+
+
+Processing RecommendController#index (for 192.168.0.125 at 2011-06-13 20:45:02) [GET]
+  Parameters: {"x"=>"116", "y"=>"26"}
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSinaStatus Load (0.3ms)[0m   [0mSELECT * FROM `sina_statuses` LIMIT 0, 10[0m
+  [4;36;1mSinaUser Load (0.6ms)[0m   [0;1mSELECT * FROM `sina_users` [0m
+  [4;35;1mSinaStatus Load (0.3ms)[0m   [0mSELECT * FROM `sina_statuses` LIMIT 5, 10[0m
+Rendering template within layouts/recommend
+Rendering recommend/index
+  [4;36;1mSinaStatus Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `sina_statuses`[0m
+  [4;35;1mSinaUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `sina_users`[0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mSinaUser Load (0.3ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mSinaUser Load (0.3ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mSinaUser Load (0.3ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+Rendered recommend/_hotpart (27.0ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+Rendered recommend/_hotpart (115.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+Rendered recommend/_hotpart (10.3ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+Rendered recommend/_hotpart (10.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+Rendered recommend/_hotpart (10.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+Rendered recommend/_hotpart (8.8ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+Rendered recommend/_hotpart (4.9ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+Rendered recommend/_hotpart (4.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+Rendered recommend/_hotpart (4.6ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+Rendered recommend/_hotpart (4.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+Rendered recommend/_hotpart (4.5ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+Rendered recommend/_hotpart (4.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+Rendered recommend/_hotpart (4.5ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+Rendered recommend/_hotpart (4.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+Rendered recommend/_hotpart (4.6ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mSinaUser Load (0.1ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1450425893') [0m
+Rendered recommend/_hotpart (4.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mSinaUser Load (0.1ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652128305') [0m
+Rendered recommend/_hotpart (4.7ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mSinaUser Load (0.1ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1843206103') [0m
+Rendered recommend/_hotpart (4.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mSinaUser Load (0.1ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1764192482') [0m
+Rendered recommend/_hotpart (5.5ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mSinaUser Load (0.1ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '2084505595') [0m
+Rendered recommend/_hotpart (4.6ms)
+Completed in 290ms (View: 264, DB: 2) | 200 OK [http://192.168.0.152/recommend?x=116&y=26]
+
+
+Processing RecommendController#index (for 192.168.0.125 at 2011-06-13 20:46:43) [GET]
+  Parameters: {"x"=>"157", "y"=>"39"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSinaStatus Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_statuses` LIMIT 0, 10[0m
+  [4;35;1mSinaUser Load (0.4ms)[0m   [0mSELECT * FROM `sina_users` [0m
+  [4;36;1mSinaStatus Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_statuses` LIMIT 5, 10[0m
+Rendering template within layouts/recommend
+Rendering recommend/index
+  [4;35;1mSinaStatus Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `sina_statuses`[0m
+  [4;36;1mSinaUser Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `sina_users`[0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mSinaUser Load (0.3ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mSinaUser Load (0.7ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+Rendered recommend/_hotpart (26.2ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+Rendered recommend/_hotpart (9.5ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+Rendered recommend/_hotpart (9.4ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+Rendered recommend/_hotpart (10.0ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+Rendered recommend/_hotpart (9.4ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+Rendered recommend/_hotpart (14.2ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+Rendered recommend/_hotpart (9.9ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+Rendered recommend/_hotpart (9.6ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+Rendered recommend/_hotpart (9.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+Rendered recommend/_hotpart (9.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+Rendered recommend/_hotpart (9.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+Rendered recommend/_hotpart (9.6ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+Rendered recommend/_hotpart (10.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+Rendered recommend/_hotpart (9.3ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+Rendered recommend/_hotpart (9.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1450425893') [0m
+Rendered recommend/_hotpart (10.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652128305') [0m
+Rendered recommend/_hotpart (10.1ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1843206103') [0m
+Rendered recommend/_hotpart (11.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mSinaUser Load (0.3ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1764192482') [0m
+Rendered recommend/_hotpart (11.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mSinaUser Load (0.1ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '2084505595') [0m
+Rendered recommend/_hotpart (6.5ms)
+Completed in 256ms (View: 231, DB: 1) | 200 OK [http://192.168.0.152/recommend?x=157&y=39]
+
+
+Processing RecommendController#index (for 127.0.0.1 at 2011-06-13 21:22:16) [GET]
+  Parameters: {"x"=>"129", "y"=>"42"}
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSinaStatus Load (0.4ms)[0m   [0mSELECT * FROM `sina_statuses` LIMIT 0, 10[0m
+  [4;36;1mSinaUser Load (0.4ms)[0m   [0;1mSELECT * FROM `sina_users` [0m
+  [4;35;1mSinaStatus Load (0.3ms)[0m   [0mSELECT * FROM `sina_statuses` LIMIT 5, 10[0m
+Rendering template within layouts/recommend
+Rendering recommend/index
+  [4;36;1mSinaStatus Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `sina_statuses`[0m
+  [4;35;1mSinaUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `sina_users`[0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mSinaUser Load (0.2ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mSinaUser Load (0.2ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+Rendered recommend/_hotpart (30.3ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+Rendered recommend/_hotpart (10.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+Rendered recommend/_hotpart (10.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+Rendered recommend/_hotpart (22.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+Rendered recommend/_hotpart (5.0ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+Rendered recommend/_hotpart (19.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+Rendered recommend/_hotpart (4.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+Rendered recommend/_hotpart (2.8ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+Rendered recommend/_hotpart (2.9ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+Rendered recommend/_hotpart (2.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+Rendered recommend/_hotpart (2.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+Rendered recommend/_hotpart (45.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+Rendered recommend/_hotpart (2.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+Rendered recommend/_hotpart (3.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+Rendered recommend/_hotpart (2.9ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mSinaUser Load (0.1ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1450425893') [0m
+Rendered recommend/_hotpart (2.8ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mSinaUser Load (0.1ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652128305') [0m
+Rendered recommend/_hotpart (2.9ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mSinaUser Load (0.1ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1843206103') [0m
+Rendered recommend/_hotpart (2.8ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;36;1mSinaUser Load (0.1ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1764192482') [0m
+Rendered recommend/_hotpart (2.8ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1951130367') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1170017722') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1873510921') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1652850653') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1879933581') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1752131164') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1874650881') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1047788301') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1750560615') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '1943358877') [0m
+  [4;35;1mSinaUser Load (0.1ms)[0m   [0mSELECT * FROM `sina_users` WHERE (`sina_users`.`userID` = '2084505595') [0m
+Rendered recommend/_hotpart (2.7ms)
+Completed in 229ms (View: 199, DB: 2) | 200 OK [http://localhost/recommend?x=129&y=42]
