@@ -13,8 +13,7 @@
 -->
 <table>
 	<tr class="<%= cycle('list-line-odd','list-line-even')%>">
-		<td><%=h SinaUser.find(hotpart.usr).name%></td><tr />
-		<td><%=h hotpart.text %></td><tr />
+		<td><%=h SinaUser.find(hotpart.usr).name%>:  <%=h hotpart.text %></td><tr />
 	</tr>
 </table>
 
