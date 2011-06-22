@@ -1,6 +1,5 @@
 <div id="user-list">
-	<%= image_tag "/images/NSLAB-logo.jpg"%>
-			
+	<%= image_tag "/images/NSLAB-logo.jpg"%>		
 
 	<h1>
 		<span onclick="changemark(0)">热点推荐</span>
@@ -18,6 +17,9 @@
 		<div id="other" class="hidden">
 			<%= render :partial => "hotpart", :collection => @other_statuses %>
 			<span onclick="getinfo(2)">收起</span>
+		</div>
+		<div id="ajax">
+			<%= link_to_remote("测试ajax", :url => {:action => "testajax"})%>
 		</div>
 	</div>
 	<!-- 热点推荐：end -->

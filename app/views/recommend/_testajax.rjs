@@ -1,0 +1,6 @@
+@tests.each do |test|
+page.insert_html :bottom,"ajax",
+" #{test.name}
+"
+end
+page.visual_effect :highlight, 'ajax'
